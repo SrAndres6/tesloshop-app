@@ -71,14 +71,14 @@ chmod +x start.sh stop.sh
 ## 5. Ejecutar el script start.sh
 ```bash
 ./start.sh
-    ```
+```
 ## 6. Despliegue con Docker Compose
 Para levantar todo el entorno (Frontend, Backend y DB), ejecuta:
 ```bash
 docker compose up --build -d
 ```
 
-## vercar contenedor
+## verificar contenedores
 ```bash
 docker compose ps
 ```
